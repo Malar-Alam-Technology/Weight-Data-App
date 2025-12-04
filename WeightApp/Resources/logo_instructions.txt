@@ -1,0 +1,21 @@
+Logo Setup Instructions
+========================
+
+To add your parking logo to the application:
+
+1. Save your logo image as: "parking_logo.png"
+   (Recommended size: 120x120 pixels or larger, transparent background preferred)
+
+2. Place it in this folder: WeightApp/Resources/
+
+3. In Visual Studio:
+   - Right-click the project
+   - Add > Existing Item
+   - Select parking_logo.png
+   - In Properties window, set:
+     * Build Action: Embedded Resource
+     * Copy to Output Directory: Copy if newer
+
+4. The application will automatically display the logo in the header.
+
+Alternative: The app will display a placeholder if logo is not found.
